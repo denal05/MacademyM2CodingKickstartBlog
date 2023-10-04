@@ -8,6 +8,6 @@ class Index implements HttpGetActionInterface
 {
     public function execute()
     {
-        die('Hello world');
+        die('/blog/index/index');
     }
 }
