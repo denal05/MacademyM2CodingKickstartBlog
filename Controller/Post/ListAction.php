@@ -14,7 +14,6 @@ class ListAction implements HttpGetActionInterface
 
     public function execute(): Page
     {
-        echo('/blog/post/list');
         return $this->pageFactory->create();
     }
 }
