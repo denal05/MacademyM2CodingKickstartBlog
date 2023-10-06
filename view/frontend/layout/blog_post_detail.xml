@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="main">
+            <block name="blog.post.detail" template="Denal05_MacademyM2CodingKickstartBlog::post/detail.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="sidebar.additional">
+            <block name="blog.post.sidebar" template="Denal05_MacademyM2CodingKickstartBlog::post/sidebar.phtml"/>
+        </referenceContainer>
+        <referenceBlock name="catalog.compare.sidebar" display="false"/>
+        <referenceBlock name="wishlist_sidebar" display="false"/>
+    </body>
+</page>
