@@ -1,0 +1,13 @@
+{
+    "denal05_macademy_m2_coding_kickstart_blog": {
+        "column": {
+            "id": true,
+            "title": true,
+            "content": true,
+            "created_at": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
