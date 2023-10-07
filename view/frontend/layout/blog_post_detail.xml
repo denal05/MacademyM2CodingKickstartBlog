@@ -3,10 +3,20 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="main">
-            <block name="blog.post.detail" template="Denal05_MacademyM2CodingKickstartBlog::post/detail.phtml"/>
+            <block name="blog.post.detail" template="Denal05_MacademyM2CodingKickstartBlog::post/detail.phtml">
+                <arguments>
+                    <argument name="post_viewmodel"
+                              xsi:type="object">Denal05\MacademyM2CodingKickstartBlog\ViewModel\Post</argument>
+                </arguments>
+            </block>
         </referenceContainer>
         <referenceContainer name="sidebar.additional">
-            <block name="blog.post.sidebar" template="Denal05_MacademyM2CodingKickstartBlog::post/sidebar.phtml"/>
+            <block name="blog.post.sidebar" template="Denal05_MacademyM2CodingKickstartBlog::post/sidebar.phtml">
+                <arguments>
+                    <argument name="post_viewmodel"
+                              xsi:type="object">Denal05\MacademyM2CodingKickstartBlog\ViewModel\Post</argument>
+                </arguments>
+            </block>
         </referenceContainer>
         <referenceBlock name="catalog.compare.sidebar" display="false"/>
         <referenceBlock name="wishlist_sidebar" display="false"/>

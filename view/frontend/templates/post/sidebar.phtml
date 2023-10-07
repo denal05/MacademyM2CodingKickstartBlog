@@ -1,3 +1,15 @@
+<?php
+/** @var Magento\Framework\View\Element\Template $block */
+/** @var Magento\Framework\Escaper $escaper */
+/** @var Denal05\MacademyM2CodingKickstartBlog\ViewModel\Post $postViewModel */
+$postViewModel = $block->getData('post_viewmodel');
+?>
 <div class="blog-post-sidebar">
-    <h3><?= __('Blog post sidebar') ?></h3>
+    <h3><?= __('Other blog posts:') ?></h3>
+    <ul>
+        <?php foreach ($postViewModel->getList() as $post): ?>
+            <li><a href="<?= $block->getUrl('blog/post/detail', ['id' => $post->getData('id')]) ?>"
+                ><?= $escaper->escapeHtml($post->getData('title')) ?></a></li>
+        <?php endforeach ?>
+    </ul>
 </div>
