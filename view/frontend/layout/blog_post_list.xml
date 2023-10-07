@@ -3,7 +3,12 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="main">
-            <block name="blog.post.list" template="Denal05_MacademyM2CodingKickstartBlog::post/list.phtml"/>
+            <block name="blog.post.list" template="Denal05_MacademyM2CodingKickstartBlog::post/list.phtml">
+                <arguments>
+                    <argument name="post_viewmodel"
+                              xsi:type="object">Denal05\MacademyM2CodingKickstartBlog\ViewModel\Post</argument>
+                </arguments>
+            </block>
         </referenceContainer>
     </body>
 </page>
