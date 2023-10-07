@@ -54,7 +54,7 @@ class PostRepository implements PostRepositoryInterface
         } catch (\Exception $e) {
             throw new CouldNotDeleteException(
                 __($e->getMessage())
-            )
+            );
         }
 
         return true;
