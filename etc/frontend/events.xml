@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="denal05_macademym2codingkickstartblog_controller_post_detail_view">
+        <observer name="denal05_macademym2codingkickstartblog_observer_log_post_detail_view"
+                  instance="Denal05\MacademyM2CodingKickstartBlog\Observer\LogPostDetailView"/>
+    </event>
+</config>
