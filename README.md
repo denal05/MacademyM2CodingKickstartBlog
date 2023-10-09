@@ -2,12 +2,12 @@
 A Magento 2 module built as an exercise for the [M.academy "Magento 2 Coding Kickstart" course](https://m.academy/courses/magento-2-coding-kickstart/) by [Mark Shust](https://github.com/markshust/) but with additional functionality, such as an admin panel menu.  
 The original source code for this module of the above course can be found at [https://github.com/macademy/magento-2-coding-kickstart](https://github.com/macademy/magento-2-coding-kickstart)
 
-#### M.academy's "M2 Coding Kickstart" Course Curriculum:
+### M.academy's "M2 Coding Kickstart" Course Curriculum:
 
-##### Introduction
+#### Introduction
 Welcome! Prerequisites, focus & outcome  
 
-##### Application & Environment Setup
+#### Application & Environment Setup
 Directory structure of a Magento project  
 All about Magento application modes  
 Enabling developer mode for Magento development  
@@ -16,7 +16,7 @@ Install & deploy Magento sample data
 About the Magento config, environment & version control  
 Set up additional Magento development tools  
 
-#### Caching  
+#### Caching
 Enabling & disabling cache types in Magento  
 Cleaning & flushing Magento caches  
 Enable automatic Magento cache clearing for development  
@@ -85,7 +85,7 @@ Create a model
 Create a resource model  
 Create a collection  
 
-#### Repositories & Data Interfaces 
+#### Repositories & Data Interfaces
 What is a service contract?  
 Create a data transfer object (DTO) interface  
 Update a model to implement a DTO interface  
@@ -93,7 +93,7 @@ Define a model preference for a DTO interface
 Create a repository interface  
 Create a repository  
 
-#### Saving & Querying Data 
+#### Saving & Querying Data
 Load data with a resource model  
 Save data with a resource model  
 Delete data with a resource model  
