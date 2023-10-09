@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Magento_Backend::content">
+                    <resource id="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
+                              title="M.academy M2 Coding Kickstart Blog" translate="title" sortOrder="900">
+                        <resource id="Denal05_MacademyM2CodingKickstartBlog::post" title="Blog Post" translate="title">
+                            <resource id="Macademy_Minerva::post_save" title="Save" translate="title"/>
+                            <resource id="Macademy_Minerva::post_delete" title="Delete" translate="title"/>
+                        </resource>
+                    </resource>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
+             resource="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
+             title="Denal05 Blog"
+             translate="title"
+             module="Denal05_MacademyM2CodingKickstartBlog"
+             parent="Magento_Backend::content"
+             sortOrder="900"/>
+        <add id="Denal05_MacademyM2CodingKickstartBlog::post"
+             resource="Denal05_MacademyM2CodingKickstartBlog::post"
+             title="Manage Posts"
+             module="Denal05_MacademyM2CodingKickstartBlog"
+             action="macademym2codingkickstartblog/post"
+             parent="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
+             sortOrder="10"/>
+        <add id="Denal05_MacademyM2CodingKickstartBlog::config"
+             resource="Denal05_MacademyM2CodingKickstartBlog::config"
+             title="Configuration"
+             module="Denal05_MacademyM2CodingKickstartBlog"
+             action="adminhtml/system_config/edit/section/macademym2codingkickstartblog"
+             parent="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
+             sortOrder="20"/>
+    </menu>
+</config>
