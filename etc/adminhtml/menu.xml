@@ -7,7 +7,7 @@
              title="Denal05 Blog"
              translate="title"
              module="Denal05_MacademyM2CodingKickstartBlog"
-             parent="Magento_Backend::content"
+
              sortOrder="900"/>
         <add id="Denal05_MacademyM2CodingKickstartBlog::post"
              resource="Denal05_MacademyM2CodingKickstartBlog::post"

@@ -35,7 +35,7 @@ class Index extends Action implements HttpGetActionInterface
     {
         $page = $this->pageFactory->create();
         $page->setActiveMenu('Denal05_MacademyM2CodingKickstartBlog::post');
-        $page->getConfig()->getTitle()->prepend(__('Denal05 M.academy M2 Coding Kickstart Blog'));
+        $page->getConfig()->getTitle()->prepend(__('Blog Posts'));
 
         return $page;
     }
