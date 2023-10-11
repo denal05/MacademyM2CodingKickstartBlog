@@ -1,6 +1,11 @@
 # M.academy M2 Coding Kickstart Blog
-A Magento 2 module built as an exercise for the [M.academy "Magento 2 Coding Kickstart" course](https://m.academy/courses/magento-2-coding-kickstart/) by [Mark Shust](https://github.com/markshust/) but with additional functionality, such as an admin panel menu.  
-The original source code for this module of the above course can be found at [https://github.com/macademy/magento-2-coding-kickstart](https://github.com/macademy/magento-2-coding-kickstart)
+A Magento 2 module built as an exercise for the M.academy [Magento 2 Coding Kickstart](https://m.academy/courses/magento-2-coding-kickstart/) course and [Transform Magento 2 Admin Grids & Forms](https://m.academy/courses/transform-magento-2-admin-grids-forms/) course by [Mark Shust](https://github.com/markshust/).  
+The original source code for the associated modules of the above courses can be found at the following links:   
+[https://github.com/macademy/magento-2-coding-kickstart](https://github.com/macademy/magento-2-coding-kickstart)
+[https://github.com/macademy/magento-2-coding-kickstart-extra](https://github.com/macademy/magento-2-coding-kickstart-extra)
+[https://github.com/macademy/build-admin-grid-ui-components/](https://github.com/macademy/build-admin-grid-ui-components/)
+
+---
 
 ### M.academy's "M2 Coding Kickstart" Course Curriculum:
 
@@ -117,3 +122,66 @@ Use a before plugin to modify function parameters
 Use an after plugin to modify the result of a function  
 Use an around plugin to silence a function  
 Override a class using a preference  
+
+#### Conclusion
+Downloadable archive of the FAQ module
+Course feedback & certificate for the M2 Coding Kickstart course
+
+---
+
+### M.academy's "Transform Magento 2 Admin Grids & Forms" Course Curriculum:
+
+#### Admin Grids
+Overview & expectations of the FAQ module   
+Prep environment for admin grid development
+Create the module & define dependencies   
+Create admin user resource permissions
+Create admin menu items
+Create an admin route
+Create an admin controller
+Set an admin page menu & title
+Create a model, resource model & collection
+Create a new database table with columns
+Populate a database table with data
+Create a virtual class for the grid collection
+Create the simplest admin grid
+Exercise: Add additional columns to an admin grid
+Implement an alternate component for an admin grid column
+Create an admin grid actions column   
+Exercise: Transform the admin actions column into a dropdown   
+Create an admin edit controller action   
+Create an admin delete controller action   
+Exercise: Add confirmation dialog to an admin grid delete action
+Make an entire admin grid row into a clickable action
+Add paging, column toggles & stickiness to the admin grid
+Add bookmarks to the admin grid & diagnose caching issues
+Exercise: Sort an admin grid by a column value
+Add filters to an admin grid   
+Set default filters on an admin grid   
+Add a fulltext search box to an admin grid   
+Add a primary action button to an admin grid
+Create an admin controller for adding new records
+Set up the UI for admin grid inline editing
+Create an admin grid inline edit controller action   
+Set up the UI for an admin grid mass action delete   
+Handle an admin grid mass action delete submission   
+
+#### Admin Forms
+Create a UI Component DataProvider class in PHP
+Render the admin form UI Component with page layout XML
+Create the structure of an admin form UI Component
+UI Component templates & definitions
+Define the UI Component namespace & data scope with settings
+Define a UI Component Data Provider using dataSource
+Define the data source as a dependency to the UI Component
+Render a fieldset and text form inputs
+Create & render select dropdown form fields
+Create a save button for an admin form UI Component
+Create an admin form save action with pseudo code
+Implement the admin form save action logic
+Create a back button to cancel an admin form submission
+Creating admin form validation rules
+
+#### Conclusion
+Downloadable archive of the FAQ module
+Course feedback & certificate for the Admin Grids & Forms course
