@@ -122,6 +122,6 @@
                 <filter>dateRange</filter>
             </settings>
         </column>
-        <!--actionsColumn name="actions" class="Macademy\Minerva\Ui\Component\Listing\Column\Actions"/-->
+        <actionsColumn name="actions" class="Denal05\MacademyM2CodingKickstartBlog\Ui\Component\Listing\Column\Actions"/>
     </columns>
 </listing>
