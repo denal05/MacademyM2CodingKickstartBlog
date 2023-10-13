@@ -57,7 +57,7 @@ class Actions extends Column
                 ],
             ];
         }
-        
+
         return $dataSource;
     }
 }
