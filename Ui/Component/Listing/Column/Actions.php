@@ -54,7 +54,7 @@ class Actions extends Column
             $item[$this->getData('name')] = [
                 'edit' => [
                     'href' => $this->urlBuilder->getUrl('macademym2codingkickstartblog/post/edit', [
-                        'id' => $item['id']
+                        'id' => $item['id'],
                     ]),
                     'label' => __('Edit'),
                 ],
@@ -67,7 +67,6 @@ class Actions extends Column
                         'title' => __('Delete "%1"', $title),
                         'message' => __('Are you sure you want to delete: "%1"', $title),
                     ],
-                    'post' => true,
                 ],
             ];
         }
