@@ -47,7 +47,7 @@
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="applied" xsi:type="array">
-                        <item name="is_published" xsi:type="string">1</item>
+                        <item name="id" xsi:type="string">1</item>
                     </item>
                 </item>
             </argument>
