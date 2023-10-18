@@ -10,5 +10,8 @@
         <constraint xsi:type="primary" referenceId="PRIMARY">
             <column name="id"/>
         </constraint>
+        <index referenceId="DENAL05_MACADEMY_M2_CODING_KICKSTART_BLOG_CONTENT" indexType="fulltext">
+            <column name="content"/>
+        </index>
     </table>
 </schema>

@@ -8,6 +8,9 @@
         },
         "constraint": {
             "PRIMARY": true
+        },
+        "index": {
+            "DENAL05_MACADEMY_M2_CODING_KICKSTART_BLOG_CONTENT": true
         }
     }
 }
