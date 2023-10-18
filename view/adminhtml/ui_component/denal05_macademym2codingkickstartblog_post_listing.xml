@@ -121,6 +121,7 @@ xsi:type="string">denal05_macademym2codingkickstartblog_post_listing.denal05_mac
             <settings>
                 <label translate="true">Created at</label>
                 <filter>dateRange</filter>
+                <sorting>desc</sorting>
             </settings>
         </column>
         <actionsColumn name="actions" class="Denal05\MacademyM2CodingKickstartBlog\Ui\Component\Listing\Column\Actions"/>
