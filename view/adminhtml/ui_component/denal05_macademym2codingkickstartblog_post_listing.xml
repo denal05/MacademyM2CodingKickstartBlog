@@ -46,9 +46,9 @@
         <filters name="listing_filters">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="applied" xsi:type="array">
+                    <!--item name="applied" xsi:type="array">
                         <item name="id" xsi:type="string">1</item>
-                    </item>
+                    </item-->
                 </item>
             </argument>
         </filters>
