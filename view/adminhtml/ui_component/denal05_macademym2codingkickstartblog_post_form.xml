@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">denal05_macademym2codingkickstartblog_post_form.denal05_macademym2codingkickstartblog_post_data_source_provider</item>
+        </item>
+        <item name="template" xsi:type="string">templates/form/collapsible</item>
+    </argument>
+    <settings>
+        <namespace>denal05_macademym2codingkickstartblog_post_form</namespace>
+        <!-- The "data" below is expected on line 60 of vendor/magento/module-ui/view/base/web/js/form/provider.js -->
+        <dataScope>data</dataScope>
+        <deps>
+            <dep>denal05_macademym2codingkickstartblog_post_data_source_provider</dep>
+        </deps>
+    </settings>
+    <dataSource name="denal05_macademym2codingkickstartblog_post_data_source_provider">
+        <argument name="node" xsi:type="array">
+            <item name="js_config" xsi:type="array">
+                <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
+            </item>
+        </argument>
+        <dataProvider class="Denal05\MacademyM2CodingKickstartBlog\Ui\DataProvider\Post"
+                      name="denal05_macademym2codingkickstartblog_post_data_source_provider">
+            <settings>
+                <!-- The request field references the URL parameter. -->
+                <requestFieldName>id</requestFieldName>
+                <!-- The primary field name is the primary key of the entity in the database. -->
+                <primaryFieldName>id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+    <fieldset name="denal05_macademym2codingkickstartblog_post_fieldset">
+        <settings>
+            <label/>
+        </settings>
+        <field name="id" formElement="hidden"/>
+        <field name="title" formElement="input">
+            <settings>
+                <label translate="true">Title</label>
+                <dataType>text</dataType>
+            </settings>
+        </field>
+        <field name="content" formElement="input">
+            <settings>
+                <label translate="true">Content</label>
+                <dataType>text</dataType>
+            </settings>
+        </field>
+    </fieldset>
+</form>
