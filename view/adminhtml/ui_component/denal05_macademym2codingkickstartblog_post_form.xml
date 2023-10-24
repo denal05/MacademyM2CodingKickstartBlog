@@ -8,14 +8,14 @@
     </argument>
     <settings>
         <namespace>denal05_macademym2codingkickstartblog_post_form</namespace>
-        <!-- The "data" below is expected on line 60 of vendor/magento/module-ui/view/base/web/js/form/provider.js -->
+        <!-- The "data" in dataScope is expected on line 60 of vendor/magento/module-ui/view/base/web/js/form/provider.js -->
         <dataScope>data</dataScope>
         <deps>
-            <dep>denal05_macademym2codingkickstartblog_post_data_source_provider</dep>
+            <dep>denal05_macademym2codingkickstartblog_post_form.denal05_macademym2codingkickstartblog_post_data_source_provider</dep>
         </deps>
     </settings>
     <dataSource name="denal05_macademym2codingkickstartblog_post_data_source_provider">
-        <argument name="node" xsi:type="array">
+        <argument name="data" xsi:type="array">
             <item name="js_config" xsi:type="array">
                 <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
             </item>
