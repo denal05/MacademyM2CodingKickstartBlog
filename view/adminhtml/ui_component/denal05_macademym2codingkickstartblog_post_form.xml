@@ -46,12 +46,18 @@
             <settings>
                 <label translate="true">Title</label>
                 <dataType>text</dataType>
+                <validation>
+                    <rule name="required-entry" xsi:type="boolean">true</rule>
+                </validation>
             </settings>
         </field>
         <field name="content" formElement="input">
             <settings>
                 <label translate="true">Content</label>
                 <dataType>text</dataType>
+                <validation>
+                    <rule name="required-entry" xsi:type="boolean">true</rule>
+                </validation>
             </settings>
         </field>
     </fieldset>
