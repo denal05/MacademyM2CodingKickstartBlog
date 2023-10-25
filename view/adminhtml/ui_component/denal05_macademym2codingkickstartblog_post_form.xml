@@ -7,6 +7,9 @@
         <item name="template" xsi:type="string">templates/form/collapsible</item>
     </argument>
     <settings>
+        <buttons>
+            <button name="save" class="Denal05\MacademyM2CodingKickstartBlog\Block\Adminhtml\Post\Edit\Button\Save"/>
+        </buttons>
         <namespace>denal05_macademym2codingkickstartblog_post_form</namespace>
         <!-- The "data" in dataScope is expected on line 60 of vendor/magento/module-ui/view/base/web/js/form/provider.js -->
         <dataScope>data</dataScope>
@@ -20,6 +23,9 @@
                 <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
             </item>
         </argument>
+        <settings>
+            <submitUrl path="*/*/save"></submitUrl>
+        </settings>
         <dataProvider class="Denal05\MacademyM2CodingKickstartBlog\Ui\DataProvider\Post"
                       name="denal05_macademym2codingkickstartblog_post_data_source_provider">
             <settings>
