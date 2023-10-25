@@ -8,6 +8,7 @@
     </argument>
     <settings>
         <buttons>
+            <button name="back" class="Denal05\MacademyM2CodingKickstartBlog\Block\Adminhtml\Post\Edit\Button\Back"/>
             <button name="save" class="Denal05\MacademyM2CodingKickstartBlog\Block\Adminhtml\Post\Edit\Button\Save"/>
         </buttons>
         <namespace>denal05_macademym2codingkickstartblog_post_form</namespace>
