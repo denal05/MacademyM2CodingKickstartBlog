@@ -189,3 +189,6 @@ Creating admin form validation rules
 #### Conclusion
 Downloadable archive of the FAQ module   
 Course feedback & certificate for the Admin Grids & Forms course   
+
+## To Do
+1. // TODO: Utilize the admin > Stores > Config > Denal05 > "M.academy M2 Coding Kickstart Blog" menu to enable/disable the frontend and admin functionality of the module. 
