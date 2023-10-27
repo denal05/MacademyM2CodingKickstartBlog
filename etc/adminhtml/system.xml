@@ -3,11 +3,11 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
         <tab id="denal05"
-             translate="label" sortOrder="10">
+             translate="label" sortOrder="920">
             <label>Denal05</label>
         </tab>
         <section id="macademym2codingkickstartblog"
-                 translate="label" sortOrder="130"
+                 translate="label" sortOrder="10"
                  showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
             <label>M.academy M2 Coding Kickstart Blog</label>
@@ -16,7 +16,7 @@
             <group id="general"
                    translate="label" type="text" sortOrder="10"
                    showInDefault="1" showInWebsite="0" showInStore="0">
-                <label>General Configuration</label>
+                <label>Blog General Configuration</label>
                 <field id="enable"
                        translate="label" type="select"
                        sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
