@@ -4,24 +4,32 @@
     <menu>
         <add id="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
              resource="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
-             title="Denal05 Blog"
+             title="Denal05"
              translate="title"
              module="Denal05_MacademyM2CodingKickstartBlog"
-
              sortOrder="900"/>
+        <add id="Denal05_MacademyM2CodingKickstartBlog::section_blog"
+             resource="Denal05_MacademyM2CodingKickstartBlog::section_blog"
+             parent="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
+             title="Blog"
+             translate="title"
+             module="Denal05_MacademyM2CodingKickstartBlog"
+             sortOrder="1"/>
         <add id="Denal05_MacademyM2CodingKickstartBlog::post"
              resource="Denal05_MacademyM2CodingKickstartBlog::post"
-             title="Manage Posts"
-             module="Denal05_MacademyM2CodingKickstartBlog"
              action="macademym2codingkickstartblog/post"
-             parent="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
+             parent="Denal05_MacademyM2CodingKickstartBlog::section_blog"
+             title="Manage Posts"
+             translate="title"
+             module="Denal05_MacademyM2CodingKickstartBlog"
              sortOrder="10"/>
         <add id="Denal05_MacademyM2CodingKickstartBlog::config"
              resource="Denal05_MacademyM2CodingKickstartBlog::config"
-             title="Configuration"
-             module="Denal05_MacademyM2CodingKickstartBlog"
              action="adminhtml/system_config/edit/section/macademym2codingkickstartblog"
-             parent="Denal05_MacademyM2CodingKickstartBlog::macademym2codingkickstartblog"
+             parent="Denal05_MacademyM2CodingKickstartBlog::section_blog"
+             title="Configuration"
+             translate="title"
+             module="Denal05_MacademyM2CodingKickstartBlog"
              sortOrder="20"/>
     </menu>
 </config>
