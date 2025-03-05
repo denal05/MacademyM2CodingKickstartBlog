@@ -24,7 +24,9 @@ class Post implements ArgumentInterface
 
     public function getCount(): int
     {
-        return $this->collection->count();
+        // https://www.toptal.com/magento/interview-questions
+        // See Question 7
+        return $this->collection->getSize();
     }
 
     /**
